@@ -1,0 +1,261 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.maincont{
+    width: 100%;
+    height: 97vh;
+    flex-direction: column;
+    background: #fff;
+}
+
+.card{
+    width: 750px;
+    height: 607px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 7px;
+    margin: 30px 300px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    margin: 40px 40px;
+    line-height: 49px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img img{
+    width: 76px;
+    height: 40px;
+}
+
+.both{
+    width: 750px;
+    height: 370px;
+    margin-top: -25px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 390px;
+    height: 400px;
+    margin: 7px 40px;
+    /* background-color: royalblue; */
+}
+
+.top{
+    width: 370px;
+    height: 40px;
+    /* background-color: yellow; */
+}
+
+.top input{
+    width: 162px;
+    height: 32px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-right: 2px;
+    outline-color: blue;
+    padding-left: 10px;
+}
+
+.right{
+    width: 250px;
+    height: 300px;
+}
+
+.right img{
+    width: 250px;
+    margin: -25px -22px;
+}
+
+.right p{
+    width: 190px;
+    text-align: center;
+    margin: 0 10px;
+    /* background: red; */
+    font-size: 17px;
+    justify-content: flex-start;
+    color: rgb(71, 71, 71);
+
+}
+
+.email{
+    width: 351px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    outline-color: blue;
+    margin-top: 20px;
+}
+
+.email input{
+    width: 360px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.email span{
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 59);
+    font-size: 14px;
+}
+
+.para p{
+    width: 350px;
+    font-size: 13px;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: red; */
+    display: flex;
+    color: rgb(75, 75, 75);
+    flex-direction: column;
+} 
+
+.use p{
+    font-size: 15px;
+    color: rgb(40, 126, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.use:hover{
+    background: rgb(198, 233, 245);
+    width: 350px;
+    height: 28px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+
+
+.password{
+    width: 370px;
+    height: 40px;
+    margin: 40px 0;
+    /* background-color: yellow; */
+}
+
+.password input{
+    width: 162px;
+    height: 32px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-right: 2px;
+    outline-color: blue;
+    padding-left: 10px;
+}
+
+
+.paraa p{
+    width: 350px;
+    font-size: 13px;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: red; */
+    display: flex;
+    color: rgb(75, 75, 75);
+    flex-direction: column;
+} 
+
+.showpass{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+}
+
+.showpass input{
+    width: 19px;
+    height: 18px;
+    cursor: pointer;
+    border: solid gray;
+    border-radius: 5px;
+}
+
+.showpass span{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    margin: -5px 20px;
+    color: rgb(46, 46, 46);
+}
+
+.bothh{
+    width: 355px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    justify-content: space-evenly;
+}
+
+.bothh p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(40, 126, 255);
+    margin-right: 120px
+}
+
+.btn button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background: rgb(8, 103, 228);
+    border-radius: 5px;
+    margin-right: -60px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+.select select{
+    margin: 0 300px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    color: rgb(68, 68, 68);
+}
+
+.last{
+    width: 200px;
+    margin: 0 120px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    color: rgb(46, 46, 46);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
